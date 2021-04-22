@@ -1,0 +1,67 @@
+form {
+    display: flex;
+    margin: 15px auto;
+    flex-direction: column;
+}
+
+.name,
+.mail,
+.comment,
+.button {
+    display: inline-flex;
+    justify-content: left;
+    margin: 15px auto;
+    font-size: 30px;
+}
+
+.name label {
+    margin-right: 35px;
+    justify-content: center;
+}
+
+.name input {
+    font-size: 30px;
+    padding: 15px;
+    width: 25rem;
+}
+
+.mail label {
+    margin-right: 210px;
+}
+
+.mail input {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.comment label {
+    margin-right: 130px;
+}
+
+.comment textarea {
+    font-size: 30px;
+    font-family: unset;
+}
+
+.button {
+    position: relative;
+    left: 260px;
+}
+
+.button input {
+    font-size: 30px;
+    padding: 30px 40px;
+    border-radius: 45px;
+    font-size: 35px;
+    border: none;
+    background-color: #A6341B;
+    color: white;
+    font-weight: bold;
+}
+
+.button input:hover {
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 25px 35px;
+}

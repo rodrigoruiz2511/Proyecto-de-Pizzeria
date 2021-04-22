@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzerias Notables de Buenos Aires</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img alt="Logo de la ciudad de buenos aires" src="./Imagen/bannerProyectoPizzeria01.jpg">
+        </header>
+        <nav>
+            <div class="navegacion">
+                <a href="./principal.html">Pagina Principal</a>
+                <a href="./notables.html">Pizzerias Notables</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </nav>
+        <main>
+            <article>
+                <form action="https://ptsv2.com/t/pizzeriaGuayerd/post" method="POST">
+                    <div class="name">
+                        <div>
+                            <label for="nombre">Nombre y Apellido</label>
+                        </div>
+
+                        <div>
+                            <input type="text" name="name" maxlength="50" placeholder="nombre">
+                        </div>
+                    </div>
+                    <div class="mail">
+                        <div>
+                            <label for="mail">Email</label>
+                        </div>
+                        <div>
+                            <input type="email" name="mail" placeholder="mail@empresa.com">
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div>
+                            <label for="comentario">Comentario</label>
+                        </div>
+                        <div>
+                            <textarea name="comentario" id="" cols="24" rows="10" placeholder="Agregue un comentario"></textarea>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>
